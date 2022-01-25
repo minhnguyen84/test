@@ -13,6 +13,5 @@ class TestAll(unittest.TestCase):
         testSuite.addTest(unittest.makeSuite(fr.service_api.MotsInterditsApiServicesTest))
         print(testResult.testsRun)  # prints 1 if run "normally"
 
-
 if __name__ == "__main__":
     unittest.main()
